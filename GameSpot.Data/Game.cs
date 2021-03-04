@@ -13,12 +13,15 @@ namespace GameSpot.Data
     {
         [Key]
         public int GameId { get; set; }
+        public Guid GameOwnerId { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]
         public int YearOfRelease { get; set; }
         [Required]
         public string GameDescription { get; set; }
+
+        public virtual List<string> ListOfGames { get; }
 
     }
 }

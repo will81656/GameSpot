@@ -11,8 +11,11 @@ namespace GameSpot.Data
     {
         [Key]
         public int GameConsoleId { get; set; }
+        public Guid ConsoleOwnerId { get; set; }
         public string Console { get; set; }
         public string Manufacturer { get; set; }
-       
+
+        public virtual List<string> ListOfConsoles { get; }
+
     }
 }

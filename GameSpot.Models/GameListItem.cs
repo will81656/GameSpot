@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace GameSpot.Models
 {
-    public class Class1
+    public class GameListItem
     {
+        public int GameId { get; set; }
+        public string Name { get; set; }
     }
 }
