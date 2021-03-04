@@ -11,6 +11,7 @@ using Owin;
 using GameSpot.Providers;
 using GameSpot.Models;
 using GameSpot.Data;
+using GameSpot.WebAPI;
 
 namespace GameSpot
 {
