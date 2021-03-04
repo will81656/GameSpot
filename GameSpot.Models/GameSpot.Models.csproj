@@ -66,6 +66,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleCreate.cs" />
+    <Compile Include="ConsoleListItem.cs" />
+    <Compile Include="GameCreate.cs" />
     <Compile Include="GameListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

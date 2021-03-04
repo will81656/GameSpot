@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public class Class1
+    public class GameService
     {
+        private readonly Guid _userId;
+
+        public GameService(Guid userId)
+        {
+            _userId = userId;
+        }
     }
 }
