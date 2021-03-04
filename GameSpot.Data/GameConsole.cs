@@ -13,6 +13,7 @@ namespace GameSpot.Data
         public int GameConsoleId { get; set; }
         public string Console { get; set; }
         public string Manufacturer { get; set; }
-       
+        public virtual List<string> ListofConsoles { get; }
+
     }
 }

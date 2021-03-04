@@ -17,6 +17,7 @@ using GameSpot.Models;
 using GameSpot.Providers;
 using GameSpot.Results;
 using GameSpot.Data;
+using GameSpot.WebAPI;
 
 namespace GameSpot.Controllers
 {

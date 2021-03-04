@@ -14,11 +14,17 @@ namespace GameSpot.Data
         [Key]
         public int GameId { get; set; }
         [Required]
-        public string Name { get; set; }
+        public Guid OwnerId { get; set; }
         [Required]
+        public string Name { get; set; }
+
+        [Required]
+        [Range(1950, 3000, ErrorMessage = "please choose a year after c")]
         public int YearOfRelease { get; set; }
         [Required]
         public string GameDescription { get; set; }
+
+        public virtual List<string> ListofGames { get; }
 
     }
 }
