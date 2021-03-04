@@ -78,7 +78,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Genre.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="GameConsole.cs" />
     <Compile Include="IdentityModels.cs" />
