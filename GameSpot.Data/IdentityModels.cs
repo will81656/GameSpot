@@ -35,7 +35,7 @@ namespace GameSpot.Data
 
         public DbSet<Game> Games { get; set; }
         public DbSet<GameConsole> GameConsoles { get; set; }
-        public DbSet<Genre> Genres { get; set; }
+       
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
